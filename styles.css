@@ -5,7 +5,7 @@
 /* Estiliza o corpo da página */
 body {
     font-family: "chakra petch", sans-serif; /* Define a fonte padrão */
-    background-color: #DDDDDD; /* Cor de fundo da página */
+    background-image: linear-gradient(to right, rgb(7, 7, 7), rgb(8, 12, 252));; /* Cor de fundo da página */
     display: flex; /* Usa Flexbox para layout */
     flex-direction: column; /* Alinha os itens na vertical */
     align-items: center; /* Centraliza os itens horizontalmente */
@@ -19,7 +19,7 @@ body {
 /* Estiliza os títulos h1 */
 h1 {
     font-size: 2.5rem; /* Tamanho da fonte */
-    color: #222831; /* Cor do texto */
+    color: #f2f2f3; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     letter-spacing: 0.4rem; /* Espaçamento entre letras */
 }
@@ -99,7 +99,7 @@ section button {
 
 /* Estiliza o rodapé da página */
 footer {
-       background-color: #111111; /* Cor de fundo do rodapé */
+    background-color: #111111; /* Cor de fundo do rodapé */
     color: #f7f5f5; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     padding: 0; /* Espaçamento interno */
