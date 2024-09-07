@@ -7,15 +7,12 @@ function pesquisar() {
     // caso clique no bortao sem pesquisar com a string vazia
     if (campoPesquisa == "") {
         section.innerHTML = "<p class='sem-resultados'>Nenhum resultado encontrado.</p>"
-
         return
     }
     if (campoPesquisa == " ") {
         section.innerHTML = "<p class='sem-resultados'>Nenhum resultado encontrado.</p>"
-
         return
     }
-
     // 3. Inicializa uma string vazia para armazenar os resultados da pesquisa.
     let resultados = "";
     let nome = "";
@@ -30,17 +27,17 @@ function pesquisar() {
             //    A sintaxe `${variável}` permite inserir o valor de uma variável diretamente no texto.
             resultados += `
                 <div class="item-resultado">
-                    <h2> ${dado.nome}</h2>
-                    <p>
-                        Período: ${dado.periodo}<br>
-                        Local de nascimento: ${dado.localNascimento}<br>
-                        Local de martírio: ${dado.localMartirio}<br>
-                        Martírio: ${dado.martirio}<br>
-                        Perseguidor: ${dado.perseguidor}<br>
-                        Outras informações: ${dado.outrasInformacoes}
-                    </p>
-                    <a href= ${dado.link} target="_blank" > wikipedia </a>
-                </div>
+        <h2> ${dado.nome ?? "Não informado"}</h2>
+        <p>
+        Período: ${dado.periodo ?? "Não informado"}<br>
+        Local de nascimento: ${dado.localNascimento ?? "Não informado"}<br>
+        Local de martírio: ${dado.localMartirio ?? "Não informado"}<br>
+        Martírio: ${dado.martirio ?? "Não informado"}<br>
+        Perseguidor: ${dado.perseguidor ?? "Não informado"}<br>
+        Outras informações: ${dado.outrasInformacoes ?? "Não informado"}
+        </p>
+        <a href="${dado.link ?? "Link não disponível"}" target="_blank">wikipedia </a>
+    </div>
             `;
         }
     }
@@ -50,6 +47,6 @@ function pesquisar() {
 
     // 8. Verifica se foram encontrados resultados. Se não, exibe uma mensagem informativa.
     if (resultados === "") {
-        section.innerHTML = "<p class='sem-resultados'>Nenhum resultado encontrado.</p>";
+        section.innerHTML = "<p class='sem-resultados'>Ops! Não encontramos nada para sua pesquisa. Tente usar outras palavras-chave.</p>";
     }
 }
