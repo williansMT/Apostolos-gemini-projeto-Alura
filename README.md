@@ -1,4 +1,4 @@
-Salve, devs e entusiastas de história!
+Salve, devs e entusiastas de história! = imersão dev com Gemini
 O que é esse projeto?
 
 Imagina um buscador de apóstolos super rápido e fácil de usar. É isso que você tem aqui! Com essa aplicação web, você pode digitar o nome de qualquer apóstolo e, prontinho, todas as informações dele aparecem na tela.
