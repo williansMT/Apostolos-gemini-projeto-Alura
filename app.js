@@ -38,7 +38,6 @@ function pesquisar() {
                         Martírio: ${dado.martirio}<br>
                         Perseguidor: ${dado.perseguidor}<br>
                         Outras informações: ${dado.outrasInformacoes}
-                        tags:${dado.tags}
                     </p>
                     <a href= ${dado.link} target="_blank" > wikipedia </a>
                 </div>
