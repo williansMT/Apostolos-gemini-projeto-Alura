@@ -34,7 +34,7 @@ function pesquisar() {
         Período: ${dado.periodo ?? "Não tem ou Não informado"}<br>
         Local de trabalho: ${dado.localTrabalho ?? "Não tem ou Não informado"}<br>
         Local de nascimento: ${dado.localNascimento ?? "Não tem ou Não informado"}<br>
-        Profissão: ${dado.profissao ?? "Não tem ou Não informado"}
+        Profissão: ${dado.profissao ?? "Não tem ou Não informado"}<br>
         Local de martírio: ${dado.localMartirio ?? "Não tem ou Não informado"}<br>
         Martírio: ${dado.martirio ?? "Não tem ou Não informado"}<br>
         Perseguidor: ${dado.perseguidor ?? "Não tem ou Não informado"}<br>
