@@ -3,7 +3,7 @@ let dados = [
   {
     
       nome: "Pedro",
-      apelidos: ["Cefas", "rocha"],
+     Apelidos: ["Cefas", "rocha"],
       periodo: "c. 4-64 d.C.",
       localNascimento: "Betsaida, Galileia",
       localMartirio: "Roma",
@@ -21,7 +21,7 @@ let dados = [
     },
     {
       nome: "Andre",
-      apelidos: ["O Protoklētos, significa o primeiro chamado em grego, referindo-se a ele ter sido um dos primeiros discípulos de Jesus."],
+      Apelidos: ["O Protoklētos, significa o primeiro chamado em grego, referindo-se a ele ter sido um dos primeiros discípulos de Jesus."],
       periodo: "c. 5-70 d.C.",
       localNascimento: "Betsaida, Galileia",
       localMartirio: "Patras, Grécia",
@@ -37,7 +37,7 @@ let dados = [
     },
     {
       nome: "Tiago, Filho de zebedeu",
-      apelidos: ["Tiago Maior", "Boanerges para diferenciá-lo de outro apóstolo chamado Tiago e Boanerges que significa filhos do trovão em aramaico, referindo-se a seu temperamento."],
+      Apelidos: ["Tiago Maior", "Boanerges para diferenciá-lo de outro apóstolo chamado Tiago e Boanerges que significa filhos do trovão em aramaico, referindo-se a seu temperamento."],
       periodo: "c. 4-44 d.C.",
       localNascimento: "Betsaida, Galileia",
       localMartirio: "Jerusalém",
@@ -52,7 +52,7 @@ let dados = [
     },
   {
     nome: "Joao",
-    apelidos: ["O Discípulo Amado"],
+    Apelidos: ["O Discípulo Amado"],
     periodo: "c. 5-100 d.C.",
     localNascimento: "Betsaida, Galileia",
     localMartirio: "Èfeso,morte natural ",
@@ -83,7 +83,7 @@ let dados = [
   },
   {
     nome: "Bartolomeu",
-    apelidos: ["Natanael"],
+    Apelidos: ["Natanael"],
     periodo: "c. 1º século d.C.",
     localNascimento: "Canaã - Tradicionalmente associado à Galileia", // Tradicionalmente associado à Galileia
     localMartirio: "Índia - Segundo algumas tradições, martirizado na Índia", // Segundo algumas tradições, martirizado na Índia
@@ -100,7 +100,7 @@ let dados = [
   },
   {
     nome: "Mateus",
-    apelidos: ["Leví"],
+    Apelidos: ["Leví"],
     periodo: "c. 1º século d.C.",
     localNascimento: "Cafarnaum,Cidade onde Jesus o chamou", // Cidade onde Jesus o chamou
     profissao: "Publicano - Cobrador de impostos ", // Cobrador de impostos
@@ -117,7 +117,7 @@ let dados = [
   {
     nome: "Tome",
     tags: "tome",
-    apelidos: ["Didimo, Significa gêmeo em aramaico"], // Significa "gêmeo" em aramaico
+    Apelidos: ["Didimo, Significa gêmeo em aramaico"], // Significa "gêmeo" em aramaico
     periodo: "c. 1º século d.C.",
     localNascimento: "Desconhecido",
     outrasInformacoes: "Um dos Doze Apóstolos, conhecido por sua dúvida sobre a ressurreição de Jesus, mas que, ao ver as chagas de Cristo, exclamou: 'Meu Senhor e meu Deus!'.",
@@ -132,7 +132,7 @@ let dados = [
   },
   {
     nome: "Tiago, filho de Alfeu",
-    apelidos: ["Tiago, o Menor, Às vezes chamado assim para diferenciá-lo de Tiago, irmão de João"], // Às vezes chamado assim para diferenciá-lo de Tiago, irmão de João
+    Apelidos: ["Tiago, o Menor, Às vezes chamado assim para diferenciá-lo de Tiago, irmão de João"], // Às vezes chamado assim para diferenciá-lo de Tiago, irmão de João
     periodo: "c. 1º século d.C.",
     localNascimento: "Desconhecido",
     outrasInformacoes: "Um dos Doze Apóstolos, menos conhecido que outros. Sua mãe, Maria, é mencionada junto com a de Jesus entre as mulheres que acompanharam Jesus durante seu ministério.",
@@ -147,7 +147,7 @@ let dados = [
   },
   {
     nome: "Judas Tadeu",
-    apelidos: ["Judas Lebbeu", "Judas o Galileu"],
+    Apelidos: ["Judas Lebbeu", "Judas o Galileu"],
     periodo: "c. 1º século d.C.",
     localNascimento: "Desconhecido",
     outrasInformacoes: "Um dos Doze Apóstolos, frequentemente confundido com Judas Iscariotes. É considerado um dos apóstolos menos conhecidos, mas sua carta, incluída no Novo Testamento, revela um profundo conhecimento das Escrituras e um grande amor pelos irmãos em Cristo.",
@@ -178,7 +178,7 @@ let dados = [
 ,
 {
   nome: "Judas Iscariotes",
-  apelidos: ["traidor"],
+  Apelidos: ["traidor"],
   periodo: "c. 1º século d.C.",
   localNascimento: "Desconhecido",
   outrasInformacoes: "Um dos Doze Apóstolos, conhecido por ter traído Jesus por 30 moedas de prata. Seu ato é um dos eventos mais trágicos da narrativa bíblica.",
@@ -193,7 +193,7 @@ let dados = [
 ,
 {
   nome: "Paulo",
-  apelidos: ["Saulo de Tarso"],
+  Apelidos: ["Saulo de Tarso"],
   periodo: "c. 5-67 d.C.",
   localNascimento: "Tarso, Cilícia",
   localMartirio: "Roma",
