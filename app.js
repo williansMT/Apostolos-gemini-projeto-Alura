@@ -30,7 +30,7 @@ function pesquisar() {
         <h2> ${dado.nome ?? "Não tem ou Não informado"}</h2>
         <p>
         
-        Apelidios: ${dado.apelidos ?? "Não tem ou Não informado"}<br>
+        Apelidos: ${dado.apelidos ?? "Não tem ou Não informado"}<br>
         Período: ${dado.periodo ?? "Não tem ou Não informado"}<br>
         Local de trabalho: ${dado.localTrabalho ?? "Não tem ou Não informado"}<br>
         Local de nascimento: ${dado.localNascimento ?? "Não tem ou Não informado"}<br>
